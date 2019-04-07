@@ -1,4 +1,4 @@
-FROM fedora:28
+FROM fedora:29
 
 # Install build dependencies
 RUN INSTALL_PKGS="git golang dep make" && \
